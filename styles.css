@@ -1,0 +1,290 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.resume-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.link-box {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #50dde7, #2575fc);
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img-large {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background: #2575fc;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #6a11cb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+body {
+    margin-top: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-image: url('/nature2\ \(1\).jpg');
+     /* Replace with your image path */
+     opacity: 1;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+}
+.name {
+    text-align: center;
+}
+.profile-card{
+    background-color: rgb(226, 221, 231);
+}
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic,rgba(10, 2, 2, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffffd7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.colorful-text {
+    color: #0f0d06;
+}
+
+table-color{
+    border-width: 2px;
+    border-color: #99102e;
+}
+.bg-color{
+    background-image: none;
+    padding: 0px;
+    background-color: wheat;
+    
+}
+.profile-header {
+    background-color: #e2ac47;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #cde0b773;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background: #ccc url('/kiran.jpg') no-repeat center/cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #ffcd39;
+}
+
+.header-text h2 {
+    font-size: 1.2rem;
+    margin: 5px 0 0;
+    color: #ffcd39;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 0 10px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #00274d;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.project h4 {
+    font-size: 1.1rem;
+    margin: 0 0 5px;
+}
+
+.education p,
+.achievements ul {
+    margin: 5px 0;
+}
+
+.contact,
+.language,
+.expertise,
+.skills {
+    margin-bottom: 20px;
+}
